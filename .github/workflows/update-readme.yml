@@ -19,6 +19,6 @@ jobs:
         run: node scripts/update-readme.js
 
       - name: Commit changes
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v11
         with:
           message: "chore: update Safe proposals"
